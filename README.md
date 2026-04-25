@@ -1,75 +1,42 @@
 # AI-Powered Football Intelligence Platform
 
-An AI-powered football analytics platform that combines Large Language Models (LLMs), structured football datasets, and intelligent workflows to generate actionable insights.
-
-## Overview
-
-This project enables users to interact with football data using natural language instead of static dashboards or manual spreadsheet analysis.
-
-Users can ask questions such as:
-
-- Who played the most minutes this season?
-- Which players outperformed expected goals (xG)?
-- Suggest the best XI against a specific opponent.
-- Compare players using advanced metrics.
+An advanced AI-driven football analytics system that combines Large Language Models (LLMs), structured datasets, and intelligent agents to generate tactical insights, player analytics, and decision support.
 
 ## Key Features
 
-- Conversational football analytics
-- Player performance insights
+- Natural language football data queries
+- Player performance benchmarking
 - Opponent-aware lineup recommendations
-- Automated trend detection
+- xG / xA / advanced metrics analysis
 - Multi-agent analytics workflows
-- Structured CSV data analysis
+- Automated trend detection
+
+## Repository Structure
+
+ai-football-intelligence-platform/
+├── agents/
+├── data/fbref/premier_league_2025_26/
+├── README.md
+└── requirements.txt
+
+## Example Questions
+
+- Which players outperformed expected goals?
+- Recommend strongest XI vs Brentford
+- Compare midfielders by progressive passes
+- Who played most minutes this season?
 
 ## Tech Stack
 
-- Python
-- Pandas
-- LangChain
-- Google Gemini API
-- BeautifulSoup
-- StatsBombPy
+Python, Pandas, LangChain, Gemini API, Data Engineering, LLMs
 
-## Project Structure
+## Future Enhancements
 
-```text
-ai-football-intelligence-platform/
-├── README.md
-├── requirements.txt
-├── main.py
-├── agents/
-├── data/
-├── screenshots/
-└── docs/
-```
-
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-
-Set your API key:
-
-```bash
-export GOOGLE_API_KEY=your_key_here
-```
-
-Run the project:
-
-```bash
-python main.py
-```
-
-## Future Improvements
-
-- Live football API integrations
-- Web dashboard / chatbot UI
+- Live API integrations
+- Web dashboard
 - Cloud deployment
 - Multi-league support
-- Advanced scouting recommendations
 
-## License
+## Author
 
-MIT License
+Abenav
